@@ -4,8 +4,9 @@
     <projectFile>dio_primeira_api_dotnet/dio_primeira_api_dotnet.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02076daf-56e5-4c95-99ff-09a1bedaee0d" name="Default Changelist" comment="">
+    <list default="true" id="02076daf-56e5-4c95-99ff-09a1bedaee0d" name="Default Changelist" comment="alteração para que nos test não de erro">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.dio_primeira_api_dotnet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.dio_primeira_api_dotnet/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dio_primeira_api_dotnet/Models/Context.cs" beforeDir="false" afterPath="$PROJECT_DIR$/dio_primeira_api_dotnet/Models/Context.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,14 +16,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://F:/DIO/Projetos Csharp e DotNet/dio_primeira_api_dotnet/dio_primeira_api_dotnet/Models/Context.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/dio_primeira_api_dotnet/Models/ErrorViewModel.cs" />
       <option value="$PROJECT_DIR$/dio_primeira_api_dotnet/Models/Produto.cs" />
-      <option value="$PROJECT_DIR$/dio_primeira_api_dotnet/Models/Context.cs" />
       <option value="$PROJECT_DIR$/dio_primeira_api_dotnet/Startup.cs" />
       <option value="$PROJECT_DIR$/dio_primeira_api_dotnet/Models/Categoria.cs" />
       <option value="$PROJECT_DIR$/dio_primeira_api_dotnet/Controllers/ProdutosController.cs" />
+      <option value="$PROJECT_DIR$/dio_primeira_api_dotnet/Models/Context.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sgZaqPk1x9KMztgzicYlwOf8Jl" />
@@ -79,6 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1621296261391</updated>
       <workItem from="1621296266510" duration="4845000" />
+      <workItem from="1621303243069" duration="660000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1621296300159</created>
@@ -101,13 +106,20 @@
       <option name="project" value="LOCAL" />
       <updated>1621299524367</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="alteração para que nos test não de erro">
+      <created>1621303270162</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1621303270162</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -119,12 +131,14 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="first commit" />
     <MESSAGE value="Criando a Model de Produto, Categoria e controller de Produto e Categoria" />
     <MESSAGE value="- alteração para poder aparecer as Categorias quando eu busco os produtos" />
-    <option name="LAST_COMMIT_MESSAGE" value="- alteração para poder aparecer as Categorias quando eu busco os produtos" />
+    <MESSAGE value="alteração para que nos test não de erro" />
+    <option name="LAST_COMMIT_MESSAGE" value="alteração para que nos test não de erro" />
   </component>
 </project>

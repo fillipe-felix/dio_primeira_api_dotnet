@@ -11,5 +11,10 @@ namespace dio_primeira_api_dotnet.Models
         {
             optionsBuilder.UseSqlServer(@"Server=localhost;Database=CursoMvc;Trusted_Connection=True;");
         }
+        
+        public virtual void SetModified(object entity)
+        {
+            Entry(entity).State = EntityState.Modified;
+        }
     }
 }
