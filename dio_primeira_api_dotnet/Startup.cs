@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using dio_primeira_api_dotnet.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -27,9 +28,10 @@ namespace dio_primeira_api_dotnet
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddDbContext<Context>();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo {Title = "dio_primeira_api_dotnet", Version = "v1"});
+                c.SwaggerDoc("v1", new OpenApiInfo {Title = "DIO Primeira API .NET", Version = "v1"});
             });
         }
 
@@ -40,7 +42,7 @@ namespace dio_primeira_api_dotnet
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "dio_primeira_api_dotnet v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "DIO Primeira API .NET v1"));
             }
 
             app.UseHttpsRedirection();
