@@ -51,7 +51,7 @@ namespace dio_primeira_api_dotnet.Controllers
                 return BadRequest();
             }
 
-            _context.Entry(categoria).State = EntityState.Modified;
+            _context.SetModified(categoria);
 
             try
             {

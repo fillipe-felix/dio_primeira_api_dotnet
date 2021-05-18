@@ -4,9 +4,8 @@
     <projectFile>dio_primeira_api_dotnet/dio_primeira_api_dotnet.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02076daf-56e5-4c95-99ff-09a1bedaee0d" name="Default Changelist" comment="alteração para que nos test não de erro">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.dio_primeira_api_dotnet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.dio_primeira_api_dotnet/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dio_primeira_api_dotnet/Models/Context.cs" beforeDir="false" afterPath="$PROJECT_DIR$/dio_primeira_api_dotnet/Models/Context.cs" afterDir="false" />
+    <list default="true" id="02076daf-56e5-4c95-99ff-09a1bedaee0d" name="Default Changelist" comment="Inserindo o método SetModified">
+      <change beforePath="$PROJECT_DIR$/dio_primeira_api_dotnet/Controllers/CategoriasController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/dio_primeira_api_dotnet/Controllers/CategoriasController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +17,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock://F:/DIO/Projetos Csharp e DotNet/dio_primeira_api_dotnet/dio_primeira_api_dotnet/Models/Context.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://F:/DIO/Projetos Csharp e DotNet/dio_primeira_api_dotnet/dio_primeira_api_dotnet/Models/Context.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -27,6 +27,7 @@
       <option value="$PROJECT_DIR$/dio_primeira_api_dotnet/Models/Categoria.cs" />
       <option value="$PROJECT_DIR$/dio_primeira_api_dotnet/Controllers/ProdutosController.cs" />
       <option value="$PROJECT_DIR$/dio_primeira_api_dotnet/Models/Context.cs" />
+      <option value="$PROJECT_DIR$/dio_primeira_api_dotnet/Controllers/CategoriasController.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1sgZaqPk1x9KMztgzicYlwOf8Jl" />
@@ -83,7 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1621296261391</updated>
       <workItem from="1621296266510" duration="4845000" />
-      <workItem from="1621303243069" duration="660000" />
+      <workItem from="1621303243069" duration="1045000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1621296300159</created>
@@ -113,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621303270162</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Inserindo o método SetModified">
+      <created>1621304282201</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1621304282201</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,6 +147,7 @@
     <MESSAGE value="Criando a Model de Produto, Categoria e controller de Produto e Categoria" />
     <MESSAGE value="- alteração para poder aparecer as Categorias quando eu busco os produtos" />
     <MESSAGE value="alteração para que nos test não de erro" />
-    <option name="LAST_COMMIT_MESSAGE" value="alteração para que nos test não de erro" />
+    <MESSAGE value="Inserindo o método SetModified" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inserindo o método SetModified" />
   </component>
 </project>
